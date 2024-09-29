@@ -1,0 +1,17 @@
+// Regular function
+const add = function(a, b) {
+  return a + b;
+};
+
+// Arrow function
+const add = (a, b) => a + b;
+const numbers = [1, 2, 3, 4];
+const doubled = numbers.map(n => n * 2);
+console.log(doubled); // [2, 4, 6, 8]
+let name = 'John';
+let message = `Hello, ${name}!`; 
+console.log(message); // Hello, John!
+let product = 'Laptop';
+let price = 1200;
+let description = `The product is a ${product} and it costs $${price}.`;
+console.log(description); // The product is a Laptop and it costs $1200.
